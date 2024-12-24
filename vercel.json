@@ -5,6 +5,11 @@
     }
   },
   "routes": [
-    { "src": "/(.*)",  "dest": "/api/index.php" }
-  ]
+    { "src": "/(.*)", "dest": "/api/index.php" }
+  ],
+  "env": {
+    "MYSQL_HOST": "34.163.186.204",
+    "MYSQL_USER": "root",
+    "MYSQL_PASSWORD": "xxx"
+  }
 }
